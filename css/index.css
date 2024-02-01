@@ -10,18 +10,23 @@
 
 header{
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid white;
+    padding: 0 100px;
 }
 
 header .logo img{
-    width: 76px;
-    height: 76px;
-    border-radius: 22px;
+    width: 60px;
+    height: 60px;
 }
 
-header .pesquisa input{
-border: 3px solid white;
-top: 1;
+input{
+    width: 160px;
+    border: 1px solid white;
+}
+
+input:hover{
+    border: 2px solid rgb(163, 11, 174);
 }
